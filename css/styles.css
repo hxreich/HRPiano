@@ -1,5 +1,5 @@
 header {background-color:black;}
-body, html {font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;font-size:20px;height: 100%;background-color:antiquewhite;
+body, html {font-family: Arial, Helvetica,sans-serif;margin:0;padding:0;font-size:20px;height: 100%;background-color:antiquewhite;
     color:black;
 
 }
@@ -29,12 +29,16 @@ body, html {font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;font-size:
 }
 .video-list {
     list-style-type: none;
+    margin: 5px;
+    padding: 5px;
 }
 .video {
     display: block;
     clear: both;
-    margin: 5px;
+    float: none;
+    margin: 15px;
     padding: 5px;
+    overflow: hidden;
 
 }
 .video-player {
@@ -49,4 +53,16 @@ body, html {font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;font-size:
     border-radius:50%;
     height: 50px;
     width: 50px;  
+}
+.title {
+    font-size: 30px;
+}
+.sub-title {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.description {
+    display: inline-block;
+    margin-left: 15px;
+    width: 55%;
 }
