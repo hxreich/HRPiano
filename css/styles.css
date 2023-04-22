@@ -1,5 +1,5 @@
 header {background-color:black;}
-body, html {font-family: 'Questrial', sans-serif;margin:0;padding:0;font-size:20px;height: 100%;background-color:antiquewhite;
+body, html {font-family: 'Questrial', sans-serif;margin:0;padding:0;font-size:20px;height: 100%;background-color:linen;
     color:black;
 
 }
@@ -107,4 +107,12 @@ body, html {font-family: 'Questrial', sans-serif;margin:0;padding:0;font-size:20
 .tab {
     display: block;
     padding: 10px;
+}
+.youtube {
+    text-decoration: none;
+    color:lightpink;
+    font-weight: bold;
+}
+.youtube:hover {
+    color: rgb(184, 129, 137);
 }
